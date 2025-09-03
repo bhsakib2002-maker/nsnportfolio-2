@@ -1,0 +1,415 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  overflow: visible;
+}
+
+
+a{
+  text-decoration: none;
+}
+
+body{
+  padding: 0 100px;
+}
+
+.nav_one{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 100px;
+  
+  background-color: #bff2b8;
+}
+
+.nav_bar ul{
+  display: flex;
+  gap: 20px;
+  list-style-type: none
+}
+
+.nav_bar ul li a{
+  color: black;
+  font-size: 20px;
+}
+
+.logo {
+  height: 50px;
+  width: 50px;
+}
+
+.logo img{
+  height: 100%;
+}
+
+.banner_main{
+  padding: 30px 100px 0 100px;
+  display: flex;
+  align-items: center;
+  background-color: #7fe37d;
+}
+
+.banner_right{
+  height: 500px;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+
+.banner_right img{
+  height: 100%;
+  
+}
+
+.banner_left{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.banner_left .hero{
+  font-size: 50px;
+  text-transform: uppercase;
+}
+
+.banner_left span {
+  padding-top: 5px;
+  font-weight: bold;
+  font-size: 25px;
+  
+}
+.banner_left p {
+  font-size: 18px;
+  width: 70%;
+  padding: 20px 0;
+}
+
+.banner_left button{
+  width: 180px;
+  margin-top: 20px;
+}
+
+.skills_achivement{
+  padding: 50px 100px 50px 100px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #bff2b8;
+  
+}
+
+.skills{
+  width: 37%;
+}
+.skills .hero{
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: underline;
+  padding-top: 30px;
+  font-size: 30px;
+  margin-bottom: 10px;
+  color: #1b820d;
+}
+
+.skills i{
+  font-size: 40px;
+  color: #1b820d;
+  margin-right: 24px;
+  
+}
+
+.programming_side{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.html_skill{
+  display: flex;
+  align-items: center;
+}
+
+.progress_one{
+  display: flex;
+  align-items: center;
+
+}
+
+.html_skill .progress_one .bar {
+  height: 20px;
+  width: 300px;
+  border: 1px solid black;
+  background-color: white;
+}
+
+.html_skill .progress_one .bar .level
+{
+  height:19px;
+  width: 280px;
+  background-color: #1b820d;
+}
+
+.css_skill{
+  display: flex;
+  align-items: center;
+}
+.css_skill .progress_one .bar {
+  height: 20px;
+  width: 300px;
+  border: 1px solid black;
+  background-color: white;
+}
+
+.css_skill .progress_one .bar .level
+{
+  height:19px;
+  width: 270px;
+  background-color: #1b820d;
+}
+.js_skill{
+  display: flex;
+  align-items: center;
+}
+.js_skill .progress_one .bar {
+  height: 20px;
+  width: 300px;
+  border: 1px solid black;
+  background-color: white;
+}
+
+.js_skill .progress_one .bar .level
+{
+  height:19px;
+  width: 250px;
+  background-color: #1b820d;
+}
+
+.skills_achivement{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.achievement .hero{
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: underline;
+  padding-top: 30px;
+  font-size: 30px;
+  margin-bottom: 10px;
+  color: #1b820d;
+}
+
+.achievement{
+  
+ width: 50%;
+ display: flex;
+ flex-direction: column;
+ justify-content:start;
+ 
+ gap: 30px;
+  
+}
+
+
+.achievement ul{
+  list-style: disc;
+}
+
+.achievement ul li{
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.services_main{
+  padding-top: 30px;
+  background-color: #1b820d;
+  text-align: center;
+}
+.services_main h2{
+  color: white;
+  text-decoration: underline;
+  padding: 10px;
+  text-transform: uppercase();
+}
+.services{
+  background-color: #1b820d;
+  padding: 20px 100px 70px 100px;
+  display: flex;
+  justify-content: space-between;
+  
+}
+.services .card{
+  width: 30%;
+  border: 1px solid white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px 10px;
+}
+
+
+.services .card .icon0{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  
+  
+}
+
+.icon0 img{
+  height: 50px;
+}
+
+.services .card h3{
+  padding-top: 15px;
+  text-align: center;
+  color: white;
+  
+}
+
+.services .card p{
+  margin: 5px;
+  text-align: center;
+  color: white;
+}
+
+/* services end */
+.portfolio{
+  background-color: #bff2b8;
+  padding: 20px 250px 70px 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.portfolio .hero{
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: underline;
+  padding-top: 30px;
+  font-size: 30px;
+  margin-bottom: 50px;
+  color: #1b820d;
+}
+
+.project_one{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: green;
+}
+
+.project_one .work_img img{
+   height: 100%;
+   border: 1px solid black;
+}
+.project_one .work_img{
+  height: 250px;
+}
+
+.project_one .text1{
+  padding-top: 20px;
+  width: 90%;
+  font-size: 18px;
+  color: grey;
+  text-align: justify;
+}
+
+.client_id i{
+  font-size: 40px;
+  margin-bottom: 10px;
+  
+}
+
+.client_id h4{
+  font-size: 28px;
+}
+
+.project_one{
+  background-color: white;
+  border: 2px solid #1b820d;
+  border-radius: 7px;
+  padding: 20px 40px;
+  margin-bottom: 20px;
+}
+
+.project_two{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: green;
+  background-color: white;
+  border: 2px solid #1b820d;
+  border-radius: 7px;
+  padding: 20px 40px;
+  margin-bottom: 20px;
+}
+.project_two .work_img{
+  height: 250px;
+}
+
+.project_two .work_img img{
+   height: 100%;
+   border: 1px solid black;
+}
+
+.project_two .review_right{
+  text-align: right;
+  width: 80%;
+}
+
+.project_two .review_right p{
+   color: grey;
+   text-align: right;
+   padding-left: 24px;
+   padding-top: 20px;
+   
+  
+}
+
+.contact{
+  background-color: green;
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 250px 50px 250px;
+  align-items: center;
+
+  
+}
+.contact .inputS{
+  width: 450px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.inputS textarea{
+  height: 180px;
+  background-color: #e1ebe3;
+}
+
+.inputS input{
+  background-color: #e1ebe3;
+}
+
+.inputS h2{
+  color: white;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+.contact2{
+  color: white;
+  text-align: right;
+  font-size: 25px;
+}
+
+.contact2 i, span{
+  padding-bottom: 25px;
+}
